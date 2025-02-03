@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eef0f3;
+}
+
+.wrapper {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  background: #eef0f3;
+  flex-direction: column;
+  width: 1224px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+
+  background-color: aliceblue;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 12px;
+
+}
+
+.uppar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF9500;
+  height: 55px;
+  border-radius: 8px;
+  width: 1200px;
+
+
+}
+
+.lover-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+
+.logo {
+  margin-left: 50px;
+  border-radius: 8px;
+  background-color: #FF9500;
+}
+
+.nav-list {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+ul li {
+  list-style: none;
+  width: 70px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #262626;
+}
+
+.nav-btn {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  margin-left: 360px;
+  margin-bottom: 20px;
+
+}
+
+
+.sign-up {
+  background: #FF9500;
+  height: 45px;
+  width: 100px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.log-in {
+
+  border: 2px solid #FF9500;
+  height: 45px;
+  width: 100px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.heading-area {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+  width: 1100px;
+
+
+}
+
+.course-heading {
+  font-size: 40px;
+  font-weight: 800;
+  color: #262626;
+
+
+}
+
+.course-text {
+  font-size: 14px;
+  font-weight: 400px;
+  width: 550px;
+  color: #59595A;
+}
+
+.underline {
+  height: 1px;
+  background: #FCFCFD;
+  margin-top: 30px;
+  width: 1200px;
+  margin-left: 30px;
+}
+
+.web-card {
+  width: 1000px;
+  background: #FFFFFF;
+  border-radius: 10px;
+
+
+}
+
+
+.card-heading-fast {
+  display: flex;
+  gap: 30px;
+
+
+
+}
+
+.view-course {
+  border: 1px solid #FCFCFD;
+  padding: 10px;
+  color: #262626;
+  width: 120px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 10px;
+
+}
+
+.card-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #262626;
+
+}
+
+.card-text {
+  font-weight: 400;
+  color: #59595A;
+  margin-top: 10px;
+
+}
+
+.web-card {
+  width: 1000px;
+  padding: 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.card-img img {
+  height: 300px;
+  width: 320px;
+  margin-top: 20px;
+
+}
+
+.card-img {
+  display: flex;
+  gap: 20px;
+}
+
+.card-about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+
+}
+
+.card-about div {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  color: #262626;
+
+
+}
+
+.curriculum {
+  font-weight: 600;
+  font-size: 22px;
+  border-bottom: 1px solid #F1F1F3;
+
+}
+
+.card-num {
+  display: flex;
+  gap: 60px;
+  margin-top: 30px;
+
+
+}
+
+.content-border {
+  border: 1px solid #F1F1F3;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.card-num div div {
+  font-weight: 800;
+  font-size: 50px;
+  color: #262626;
+
+}
+
+.card-num div p {
+  width: 150px;
+}
+
+.card-about div p {
+  border: 1px solid #FFFFFF;
+  padding: 6px 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #59595A;
+  border-radius: 10px;
+}
+
+
+footer {
+  background: white;
+ padding: 50px;
+ 
+  margin-top: 50px;
+
+}
+
+.upper-footer {
+
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.logo-area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icons i {
+  padding: 5px;
+  border-radius: 8px;
+  margin: 10px;
+  background: #eef0f3;
+  border: 1px solid #c4cbd6;
+}
+
+.lower-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 30px;
+  border-top: 1px solid #c4cbd6;
+  font-size: 20px;
+  color: #4c4c4d;
+
+}
